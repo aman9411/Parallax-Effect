@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.layer1{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transform: none;
+  z-index: 1;
+}
+
+.layer2{
+  position: absolute;
+  bottom: -70px;
+  right: 0px;
+  transform: none;
+  z-index: 1000;
+}
+
+.layer3{
+  position: absolute;
+  bottom: -70px;
+  left: 0px;
+  transform: none;
+  z-index: 1110;
+}
+
+.layer4{
+  position: absolute;
+  bottom: 13%;
+  left: 34%;
+  transform: none;
+  z-index: 11;
+}
+
+.layer5{
+  position: absolute;
+  top: 45%;
+  left: 31%;
+  transform: none;
+  z-index: 1111;
+}
+
+.layer6{
+  position: absolute;
+  top: 60%;
+  right: 29%;
+  transform: none;
+  z-index: 111;
+}
+
+.layer7{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: 11;
+  transform: none;
+}
+
+.layer8{
+  position: absolute;
+  top: 52%;
+  right: 10%;
+  z-index: 11;
+  transform: none;
+}
+
+.text-style{
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  height: 2000px;
+  background: #131521;
+  text-align: center;
+}
+
+.text-style h1{
+   padding-top: 800px;
+   color: white;
+   font-family: 'Bangers', cursive;
+   letter-spacing: 5px;
+}
+
+.text-style p{
+  padding-top: 80px;
+  margin: 0px 50px 50px 50px;
+  color: white;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 5px;
+  line-height: 40px;
+}
